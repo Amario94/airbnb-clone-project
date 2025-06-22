@@ -134,4 +134,41 @@ The Scrum Master keeps the team organized, focused, and adaptable, enabling cont
 
 A user-friendly design significantly improves the user's ability to find, select, and book a property without confusion or frustration. Intuitive layouts and clear calls-to-action reduce drop-offs and increase trust in the platform. For a booking system, even small design improvements can lead to higher conversions and better user retention.
 
+## 🧱 UI Component Patterns
+
+To ensure a consistent and scalable front-end architecture, the project will adopt a modular component-based approach. Below are some of the key UI components that will be developed and reused throughout the application:
+
+### 🔝 Navbar
+**Description:**
+- The top navigation bar that appears on every page.
+- Includes links to the home page, login/signup buttons, search input, and user profile dropdown (when logged in).
+
+**Key Features:**
+- Responsive design for mobile and desktop
+- Dynamic options based on user authentication status
+- Sticky behavior for better navigation
+
+---
+
+### 🏘️ Property Card
+**Description:**
+- A reusable card layout for displaying individual property listings on the homepage or search results.
+
+**Key Features:**
+- Image preview
+- Property name, location, price per night
+- Ratings and number of reviews
+- Clickable to navigate to detailed view
+
+---
+
+### 📄 Footer
+**Description:**
+- The bottom section of the page that appears globally across the website.
+
+**Key Features:**
+- Contains links to About, Contact, Terms & Privacy, Help
+- Social med
+
+
 
